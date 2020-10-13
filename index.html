@@ -1,25 +1,54 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<!DOCTYPE html>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Пример веб-страницы</title>
- </head>
- <body>
-  <h1>Беляков Егор</h1>
-  <!-- Комментарий -->
-  <p>Группа: ИДМ-20-01</p>
-  <p>Команда: TheTeam</p>
-  <p>Роль: Программист (Frontend)</p>
-  <p> Задание на ЛР1: Необходимо создать сайт отчет и залить его на хостинг GitHub Pages. </p>
-  <p>Действия по создание и деплою на хостинг. Был создан новый репозиторий на сайте github pages. Была создана новая папка, в которой хранятся рабочие файла сайта.</p>
-  <p>Команды для деплоя сайта на хостинг: </p>
-  <p>git init - создает локальный репозиторий в нашей папке </p>
-  <p>git add . - добавление всех новых файлов в отслеживание </p>
-  <p>git commit -m"commit text" - создания комментария к нашим изменениям </p>
-  <p>git remote add origin ссылка_на_репозиторий - связываем наш локальный репозиторий с удаленным </p>
-  <p>git push -u origin master - пушим наши зменения на удаленный репозиторий </p>
-  <p>git checkout -b gh-pages - создаем новую ветку gh-pages, которая является хостингом </p>
-  <p>git checkout master - возвращаемся на ветку master </p>
-  <p>git push origin master:gh-pages - пушим все файлы из ветки master в ветку gh-pages, тем самым заливая файлы на хостин </p>
- </body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="profile">
+                <h1 class="profile__fullname">
+                    Беляков Егор Яковлевич
+                </h1>
+                <p>
+                    <span class="profile__info-label">Группа</span>
+                    <span class="profile__info-value">ИДБ-20-01</span><br>
+                    <span class="profile__info-label">Команда</span>
+                    <span class="profile__info-value">TheTeam</span><br>
+                    <span class="profile__info-label">Роль</span>
+                    <span class="profile__info-value">Программист (Frontend)</span>        
+                </p>
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №1</h2>
+                <p>
+                    <h4>Задание:</h4> Необходимо создать сайт отчет и залить его на хостинг GitHub Pages
+                </p>
+                <p>
+                    <h4>Действия по создание и деплою на хостинг:</h4>
+                    Был создан новый репозиторий на сайте github pages<br>
+                    Была создана новая папка, в которой хранятся рабочие файлы сайта<br>
+                </p>
+                <p>
+                    <h4>Команды для деплоя сайта на хостинг:</h4>
+                    git init - создает локальный репозиторий в нашей папке<br>
+                    git add . - добавление всех новых файлов в отслеживание<br>
+                    git commit -m"commit text" - создания комментария к нашим изменениям<br>
+                    git remote add origin ссылка_на_репозиторий - связываем наш локальный репозиторий с удаленным<br>
+                    git push -u origin master - пушим наши зменения на удаленный репозиторий<br>
+                    git checkout -b gh-pages - создаем новую ветку gh-pages, которая является хостингом<br>
+                    git checkout master - возвращаемся на ветку master<br>
+                    git push origin master:gh-pages - пушим все файлы из ветки master в ветку gh-pages, тем самым заливая файлы на хостинг
+                </p>  
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №2</h2>
+                -
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №2</h2>
+                -
+            </div>
+        </main>
+    </body>
 </html>
